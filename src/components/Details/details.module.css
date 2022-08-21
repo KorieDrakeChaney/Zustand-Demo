@@ -1,0 +1,64 @@
+.topLeft {
+    font-size: 0.8em;
+    top: 90px;
+    left: 40px;
+  }
+  
+.topRight {
+top: 40px;
+right: 40px;
+z-index: 1000;
+}
+
+.bottomLeft {
+bottom: 40px;
+left: 40px;
+}
+
+.bottomRight {
+bottom: 40px;
+right: 40px;
+}
+
+.headerLeft {
+    font-weight: 700;
+    text-transform: uppercase;
+    position: absolute;
+    display: inline-block;
+    top: 30px;
+    left: 40px;
+    font-size: 3em;
+    color: white;
+    z-index: 1000;
+  }
+  
+
+@media only screen and (max-width: 700px) {
+  
+    .bottomLeft {
+      bottom: 20px;
+      left: 20px;
+    }
+  
+    .bottomRight {
+      bottom: 20px;
+      right: 20px;
+    }
+    .topLeft {
+      position: fixed;
+      font-size: 0.8em;
+      top: 90px;
+      left: 40px;
+    }
+  
+    .topRight {
+      position: fixed;
+      top: 40px;
+      right: 40px;
+    }
+    .headerLeft {
+      position: fixed;
+      top: 30px;
+      left: 40px;
+    }
+  }
