@@ -95,7 +95,7 @@ export default class Background {
 
         document.addEventListener('resize', this.onResize.bind(this), false)
 
-        document.addEventListener('mousemove', this.onMouseMove.bind(this))
+        document.addEventListener('pointermove', this.onMouseMove.bind(this))
 
 		const renderPass = new RenderPass( this.scene, this.camera );
 
