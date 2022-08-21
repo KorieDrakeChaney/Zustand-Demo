@@ -8,7 +8,7 @@ const Anchor = styled.a`
     segoe ui, arial, sans-serif;
     font-weight: 400;
     font-size: 16px;
-    color: inherit;
+    color: white;
     position: absolute;
     display: inline;
     text-decoration: none;
