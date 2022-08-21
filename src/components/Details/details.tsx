@@ -20,7 +20,7 @@ const Details = () => {
     return (
         <>
         <Anchor href="https://github.com/KorieDrakeChaney" className={styles.topRight}  target="_blank">Github</Anchor>
-        <Anchor href="https://github.com/KorieDrakeChaney/Zustand-Demo" className={styles.bottomRight}  target="_blank" ><source /></Anchor>
+        <Anchor href="https://github.com/KorieDrakeChaney/Zustand-Demo" className={styles.bottomRight}  target="_blank">Source</Anchor>
         <Anchor href="https://www.instagram.com/tina.henschel/"className={styles.bottomLeft} target="_blank">Illustrations @ Tina Henschel</Anchor>
         <span className={styles.headerLeft}>Zustand-Demo</span>
         </>
